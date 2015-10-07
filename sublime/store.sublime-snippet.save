@@ -1,0 +1,17 @@
+    <tabTrigger>rc</tabTrigger>
+    <scope>source.js</scope>
+    <description>Custom React component template</description>
+<snippet>
+	<content><![CDATA[
+"use strict";
+
+export default class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends utlima.DataProvider {
+
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
