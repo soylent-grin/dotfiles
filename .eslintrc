@@ -1,6 +1,5 @@
 ###########################################################################
 #                                                                         #
-#   ITRIUM SPb ESLint Configuration                                       #
 #                                                                         #
 #   0 - turn the rule off                                                 #
 #   1 - turn the rule on as a warning (doesn't affect exit code)          #
