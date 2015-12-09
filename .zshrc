@@ -5,7 +5,7 @@
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="schminitz"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -124,6 +124,9 @@ alias neyross-embed-reinstall="sudo /home/nikolay/svn/ultima_ext/trunk/build/ney
 alias psgrep="ps -aux | grep"
 alias unz="unzip -d ./"
 alias idea="bash ~/Downloads/idea-IC-141.2735.5/bin/idea.sh"
+alias ccat="pygmentize -O style=monokai -f console256 -g"
+alias prettyjson="python -m json.tool"
+alias gcm="git commit -am"
 
 export NVM_DIR="/home/nikolay/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
