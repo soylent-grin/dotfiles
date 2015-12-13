@@ -2,11 +2,16 @@
 
 echo "hello $(whoami); let's begin.."
 
-sudo apt-get update && sudo apt-get upgrade
+SCRIPTS=(
+    ./install.sh
+    ./copy.sh
+)
 
 pushd ./scripts
-    bash ./install.sh
-    bash ./copy.sh
+    for script in "${SCRIPTS[@]}"
+    do
+        bash ${script}
+    done
 popd
 
 echo "done; bye!"
