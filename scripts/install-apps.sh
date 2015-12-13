@@ -1,5 +1,12 @@
 #!/bin/bash
 
+APPS=(
+  guake 
+  git 
+  maven python-pip httpie nginx 
+  openssh-server
+)
+
 echo "installing apps..."
 
 # chrome
