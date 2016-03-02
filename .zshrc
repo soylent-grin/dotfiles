@@ -115,10 +115,8 @@ up(){
 
 alias pyserver="python -m SimpleHTTPServer"
 alias hgrep="history | grep"
-alias smartsvn="/home/nikolay/Downloads/smartsvn-8_6_6/bin/smartsvn.sh"
 alias psgrep="ps -aux | grep"
 alias unz="unzip -d ./"
-alias idea="bash ~/Downloads/idea-IC-141.2735.5/bin/idea.sh"
 alias ccat="pygmentize -O style=monokai -f console256 -g"
 alias prettyjson="python -m json.tool"
 alias gcm="git commit -am"
