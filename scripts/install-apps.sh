@@ -24,6 +24,8 @@ APPS=(
 
 NODE_MODULES=(
   nodemon
+  npm-check
+  bower
   n
   eslint 
   grunt-cli 
