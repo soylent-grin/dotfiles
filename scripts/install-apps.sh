@@ -20,6 +20,7 @@ APPS=(
   openssh-server
   openssl libssl-dev
   libxss1 libappindicator1 libindicator7 # chrome deps
+  pgadmin3
 )
 
 NODE_MODULES=(
