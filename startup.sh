@@ -1,6 +1,6 @@
  #!/bin/bash
  
- sudo apt-get update && sudo apt-get install git
+ sudo apt-get update && sudo apt-get install -y git
  
  git config --global user.name "soylent-grin"
  
