@@ -9,7 +9,6 @@ APPS=(
   sublime-text-installer
   clementine
   guake 
-  git 
   maven 
   python-pip 
   httpie 
@@ -18,9 +17,12 @@ APPS=(
   transmission
   skype
   openssh-server
-  openssl libssl-dev
-  libxss1 libappindicator1 libindicator7 # chrome deps
   pgadmin3
+  synapse
+  rdesktop
+  sbt
+  gcc cmake openssl libssl-dev
+  libxss1 libappindicator1 libindicator7 # chrome deps
 )
 
 NODE_MODULES=(
