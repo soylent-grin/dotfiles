@@ -4,6 +4,6 @@ echo "copying configurations..."
 
 cp -f ../.bashrc ~/.bashrc
 cp -f ../.zshrc ~/.zshrc
-cp -f ../.eslintrc ~/.eslintrc
+cp -f ../.eslintrc.json ~/.eslintrc.json
 
 echo "done;"
