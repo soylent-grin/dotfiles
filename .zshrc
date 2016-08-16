@@ -5,7 +5,7 @@
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="schminitz"
+ZSH_THEME="xxf"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -49,7 +49,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 # User configuration
 
@@ -120,6 +120,5 @@ alias unz="unzip -d ./"
 alias ccat="pygmentize -O style=monokai -f console256 -g"
 alias prettyjson="python -m json.tool"
 alias gcm="git commit -am"
-
-export NVM_DIR="/home/nikolay/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+alias windows="rdesktop -g 1280x1024 10.1.31.72"
+alias yoump3="youtube-dl --extract-audio --audio-format mp3"
