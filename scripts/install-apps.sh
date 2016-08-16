@@ -15,11 +15,11 @@ APPS=(
   nginx
   vlc
   transmission
-  skype
+#  skype
   openssh-server
-  pgadmin3
+#  pgadmin3
   synapse
-  rdesktop
+#  rdesktop
   sbt
   gcc cmake openssl libssl-dev
   libxss1 libappindicator1 libindicator7 # chrome deps
