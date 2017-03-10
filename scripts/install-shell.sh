@@ -131,6 +131,6 @@ main
 
 echo "installing plugins"
 
-zsh ./install-zsh-plagins.sh
+zsh ./install-zsh-plugins.sh
 
 echo "done;"
