@@ -122,3 +122,5 @@ alias prettyjson="python -m json.tool"
 alias gcm="git commit -am"
 alias windows="rdesktop -g 1280x1024 10.1.31.72"
 alias yoump3="youtube-dl --extract-audio --audio-format mp3"
+
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=3"
